@@ -11,5 +11,5 @@ module.exports = {
               options.compiler = require('vue-template-babel-compiler')
               return options
           })
-  }
+  },
 }

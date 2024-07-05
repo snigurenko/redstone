@@ -42,6 +42,15 @@
             isHeader
         />
 
+        <NavLink
+            :activeItem="activeItem"
+            header="Manifests"
+            link="/app/manifests"
+            iconName="flaticon-manifest"
+            index="providers"
+            isHeader
+        />
+
       </ul>
 
       <footer class="contentFooter">

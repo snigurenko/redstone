@@ -67,6 +67,16 @@ const router = new Router({
           name: 'DataServicePage',
           component: DataService,
         },
+        {
+          path: 'manifests',
+          name: 'manifestsPage',
+          component: () => import("@/pages/Redstone/Manifests"),
+        },
+        // {
+        //   path: 'manifest/:Id',
+        //   name: 'ManifestPage',
+        //   component: Source,
+        // },
       ],
     },
   ],

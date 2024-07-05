@@ -743,6 +743,15 @@ i.fi {
   }
 }
 
+.flaticon-manifest {
+  background-image: url('../../src/assets/icons/manifest.svg');
+
+  &.fi {
+    width: 27px;
+    height: 27px;
+  }
+}
+
 .flaticon-speaker::before { content: '\f22e'; }
 
 .flaticon-speaker-1::before { content: '\f22f'; }

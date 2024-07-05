@@ -73,5 +73,5 @@ export default {
     },
     getAllPrices: async function (opts) {
         return await redstone.getAllPrices(fixHistoricalRedstoneProvider(opts));
-    }
+    },
 }

@@ -16,6 +16,7 @@
     "bootstrap-vue": "2.21.2",
     "cache-loader": "^4.1.0",
     "chart.js": "2",
+    "cors": "^2.8.5",
     "css-loader": "^1.0.1",
     "dateformat": "^4.5.1",
     "echarts": "^4.9.0",
